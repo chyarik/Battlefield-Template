@@ -1,0 +1,378 @@
+<Project name="ch_yaroslav">
+<Package name="Battlefield">
+
+<Container name="Briefing">
+
+<Key ID="STR_Briefing_TaskTitle">
+<Original>Task</Original>
+<Russian>Завдання</Russian>
+</Key>
+
+<Key ID="STR_Briefing_TaskDescription">
+<Original>
+
+</Original>
+<Russian>
+
+</Russian>
+</Key>
+
+<Key ID="STR_Briefing_OtherTitle">
+<Original>Other</Original>
+<Russian>Інше</Russian>
+</Key>
+
+<Key ID="STR_Briefing_OtherDescription">
+<Original>
+
+</Original>
+<Russian>
+
+</Russian>
+</Key>
+
+<Key ID="STR_Briefing_MechanicsTitle">
+<Original>Mechanics</Original>
+<Russian>Механіки</Russian>
+</Key>
+
+<Key ID="STR_Briefing_MechanicsDescription">
+<Original>
+
+</Original>
+<Russian>
+
+</Russian>
+</Key>
+
+<Key ID="STR_Briefing_UniformsTitle">
+<Original>Uniforms</Original>
+<Russian>Зовнішній вигляд сторін</Russian>
+</Key>
+
+<Key ID="STR_Briefing_UniformsDescription">
+<Original>
+
+</Original>
+<Russian>
+
+</Russian>
+</Key>
+
+<Key ID="STR_Briefing_BugsTitle">
+<Original>Known Bugs</Original>
+<Russian>Відомі баги</Russian>
+</Key>
+
+<Key ID="STR_Briefing_BugsDescription">
+<Original>
+
+</Original>
+<Russian>
+
+</Russian>
+</Key>
+
+
+</Container>
+
+<Container name="Roles">
+
+<Key ID="STR_Roles_Recon">
+<Original>
+Recon
+</Original>
+<Russian>
+Розвідник
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_Engineer">
+<Original>
+Engineer
+</Original>
+<Russian>
+Інженер
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_Support">
+<Original>
+Support
+</Original>
+<Russian>
+Кулеметник
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_Assault">
+<Original>
+Assault
+</Original>
+<Russian>
+Штурмовик
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_Rifleman">
+<Original>
+Rifleman
+</Original>
+<Russian>
+Стрілець
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_BLUFOR_RiflemanAT">
+<Original>
+Rifleman (M72)
+</Original>
+<Russian>
+Стрілець (М72)
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_OPFOR_RiflemanAT">
+<Original>
+Rifleman (RPG-26)
+</Original>
+<Russian>
+Стрілець (РПГ-26)
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_RiflemanGL">
+<Original>
+Rifleman (GL)
+</Original>
+<Russian>
+Стрілець (ГП)
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_RiflemanAA">
+<Original>
+Rifleman (AA)
+</Original>
+<Russian>
+Стрілець (ППО)
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_RiflemanAT">
+<Original>
+Rifleman (AT)
+</Original>
+<Russian>
+Стрілець (ППО)
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_Sapper">
+<Original>
+Sapper
+</Original>
+<Russian>
+Сапер
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_Engineer">
+<Original>
+Engineer
+</Original>
+<Russian>
+Інженер
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_BLUFOR_MG_M249">
+<Original>
+MG (M249)
+</Original>
+<Russian>
+Кулеметник М249
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_BLUFOR_MG_M240">
+<Original>
+MG (M240)
+</Original>
+<Russian>
+Кулеметник М240
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_OPFOR_MG_PKP">
+<Original>
+MG (PKP)
+</Original>
+<Russian>
+Кулеметник ПКП
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_OPFOR_MG_MG3">
+<Original>
+MG (MG3)
+</Original>
+<Russian>
+Кулеметник MG3
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_Sniper">
+<Original>
+Sniper
+</Original>
+<Russian>
+Снайпер
+</Russian>
+</Key>
+
+<Key ID="STR_Roles_Saboteur">
+<Original>
+Saboteur
+</Original>
+<Russian>
+Диверсант
+</Russian>
+</Key>
+
+</Container>
+
+<Container name="Spawns">
+<Key ID="STR_Spawn_Base">
+<Original>
+Base
+</Original>
+<Russian>
+База
+</Russian>
+</Key>
+
+<Key ID="STR_Spawn_BaseReserve">
+<Original>
+Base (Reserve)
+</Original>
+<Russian>
+База (Резерв)
+</Russian>
+</Key>
+
+<Key ID="STR_Spawn_Alpha">
+<Original>
+Alpha
+</Original>
+<Russian>
+Альфа
+</Russian>
+</Key>
+
+<Key ID="STR_Spawn_Bravo">
+<Original>
+Bravo
+</Original>
+<Russian>
+Браво
+</Russian>
+</Key>
+
+<Key ID="STR_Spawn_Charlie">
+<Original>
+Charlie
+</Original>
+<Russian>
+Чарлі
+</Russian>
+</Key>
+
+</Container>
+
+<Container name="Other">
+<Key ID="STR_Other_Tickets">
+<Original>
+&lt;t color='#1e81b0'&gt;BLUFOR Tickets&lt;/t&gt;: %1 &lt;br/&gt;&lt;t color='#ff0000'&gt;OPFOR Tickets&lt;/t&gt;: %2
+</Original>
+<Russian>
+&lt;t color='#1e81b0'&gt;Очки BLUFOR&lt;/t&gt;: %1 &lt;br/&gt;&lt;t color='#ff0000'&gt;Очки OPFOR&lt;/t&gt;: %2
+</Russian>
+</Key>
+
+<Key ID="STR_Other_BLUFOR">
+<Original>
+BLUFOR
+</Original>
+<Russian>
+Сині
+</Russian>
+</Key>
+
+<Key ID="STR_Other_OPFOR">
+<Original>
+OPFOR
+</Original>
+<Russian>
+Червоні
+</Russian>
+</Key>
+
+<Key ID="STR_Other_NotifyVehicleTitle">
+<Original>
+New vehicle available!
+</Original>
+<Russian>
+Нова техніка на полі бою!
+</Russian>
+</Key>
+
+<Key ID="STR_Other_NotifyVehicle">
+<Original>
+%1 is now available!
+</Original>
+<Russian>
+%1 тепер на полі бою!
+</Russian>
+</Key>
+
+<Key ID="STR_Other_NotifyTitle">
+<Original>
+Warning!
+</Original>
+<Russian>
+Увага!
+</Russian>
+</Key>
+
+<Key ID="STR_Other_Notify1">
+<Original>
+%1 have captured %2 point!
+</Original>
+<Russian>
+%1 захопили точку %2!
+</Russian>
+</Key>
+
+<Key ID="STR_Other_Notify2">
+<Original>
+%1 have captured %2 point and can spawn there!
+</Original>
+<Russian>
+%1 захопили точку %2 і мають спавн на ній!
+</Russian>
+</Key>
+
+<Key ID="STR_Other_MissionTime">
+<Original>
+Mission time: %1
+</Original>
+<Russian>
+Часу до кінця: %1
+</Russian>
+</Key>
+
+</Container>
+
+</Package>
+</Project>
