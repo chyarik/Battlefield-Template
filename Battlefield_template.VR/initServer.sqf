@@ -194,6 +194,8 @@ WestSpawn2 = [west, west_spawn2script, "$STR_Spawn_BaseReserve"] call BIS_fnc_ad
 [east, ["OPFOR_Sniper",1]] call BIS_fnc_addRespawnInventory; 
 [east, ["OPFOR_Saboteur",1]] call BIS_fnc_addRespawnInventory;
 
+titleText [localize "STR_Other_ReadyReminder", "PLAIN DOWN", 2, true, true]; 
+
 powerW=0; powerE=0; _ticketsW=1800; _ticketsE=1800; VictoryE=false; VictoryW=false;
 while {true} do {
 	powerW=0; powerE=0;

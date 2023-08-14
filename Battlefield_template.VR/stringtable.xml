@@ -372,6 +372,15 @@ Mission time: %1
 </Russian>
 </Key>
 
+<Key ID="STR_Other_ReadyReminder">
+<Original>
+&lt;t align = 'center' shadow = '2' color = '#00ff00' size = '1.7' font = 'RobotoCondensedBold'&gt; Warning: &lt;/t&gt; &lt;t color = '#ffffff' size = '1.7' font = 'RobotoCondensedBold'&gt; Side leaders, make sure to set 'Team ready' using Home button! &lt;/t&gt;
+</Original>
+<Russian>
+&lt;t align = 'center' shadow = '2' color = '#00ff00' size = '1.7' font = 'RobotoCondensedBold'&gt; Увага: &lt;/t&gt; &lt;t color = '#ffffff' size = '1.7' font = 'RobotoCondensedBold'&gt; Командири сторін, не забудьте натиснути 'Команда готова' через клавішу Home! &lt;/t&gt;
+</Russian>
+</Key>
+
 </Container>
 
 </Package>
