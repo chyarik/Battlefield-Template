@@ -381,6 +381,51 @@ Mission time: %1
 </Russian>
 </Key>
 
+<Key ID="STR_Other_VictoryOPFOR">
+<Original>
+OPFOR victory!
+</Original>
+<Russian>
+Червоні перемогли!
+</Russian>
+</Key>
+
+<Key ID="STR_Other_VictoryBLUFOR">
+<Original>
+BLUFOR victory!
+</Original>
+<Russian>
+Сині перемогли!
+</Russian>
+</Key>
+
+<Key ID="STR_Other_VictoryOPFORTime">
+<Original>
+Time is up, OPFOR victory!
+</Original>
+<Russian>
+Час вичерпано, червоні перемогли!
+</Russian>
+</Key>
+
+<Key ID="STR_Other_VictoryBLUFORTime">
+<Original>
+Time is up, BLUFOR victory!
+</Original>
+<Russian>
+Час вичерпано, сині перемогли!
+</Russian>
+</Key>
+
+<Key ID="STR_Other_Tie">
+<Original>
+Time is up, tie!
+</Original>
+<Russian>
+Час вичерпано, нічия!
+</Russian>
+</Key>
+
 </Container>
 
 </Package>

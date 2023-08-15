@@ -290,7 +290,7 @@ force ace_medical_ivFlowRate = 5;
 force ace_medical_limping = 0;
 force ace_medical_painCoefficient = 1;
 force ace_medical_painUnconsciousChance = 1;
-force ace_medical_playerDamageThreshold = 25;
+force ace_medical_playerDamageThreshold = 1;
 force ace_medical_spontaneousWakeUpChance = 0.4;
 force ace_medical_spontaneousWakeUpEpinephrineBoost = 2;
 force ace_medical_statemachine_AIUnconsciousness = false;
@@ -347,9 +347,9 @@ ace_nightvision_shutterEffects = true;
 force ace_viewdistance_enabled = true;
 force ace_viewdistance_limitViewDistance = 12000;
 ace_viewdistance_objectViewDistanceCoeff = 5;
-ace_viewdistance_viewDistanceAirVehicle = 5000;
-ace_viewdistance_viewDistanceLandVehicle = 3500;
-ace_viewdistance_viewDistanceOnFoot = 3004;
+ace_viewdistance_viewDistanceAirVehicle = 3000;
+ace_viewdistance_viewDistanceLandVehicle = 2000;
+ace_viewdistance_viewDistanceOnFoot = 1500;
 
 // ACE РћРіСЂР°РЅРёС‡РµРЅРёРµ РѕР±Р·РѕСЂР°
 force acex_viewrestriction_mode = 0;
@@ -830,89 +830,6 @@ zen_faction_filter_3_IND_L_F = true;
 zen_faction_filter_3_UK3CB_ADC_C = true;
 zen_faction_filter_3_UK3CB_CHC_C = true;
 zen_faction_filter_3_UK3CB_TKC_C = true;
-
-// STX Civilians
-force stx_civilians_aircraftAltitude = 600;
-force stx_civilians_aircraftChance = 0.5;
-force stx_civilians_aircraftClassesStr = "[""C_Heli_Light_01_civil_F"",1,""C_Plane_Civil_01_F"",1,""B_Plane_CAS_01_Cluster_F"",1,""B_Plane_Fighter_01_Cluster_F"",1]";
-force stx_civilians_aircraftMaxTime = 480;
-force stx_civilians_aircraftMinTime = 180;
-force stx_civilians_aircraftSpawnDistance = 3000;
-force stx_civilians_aircraftTTL = 300;
-force stx_civilians_autoStart = false;
-force stx_civilians_autoStartAircraft = false;
-force stx_civilians_driverCount = 3;
-force stx_civilians_driverSpawnDelay = 0.65;
-force stx_civilians_driverSpawnRadius = 550;
-force stx_civilians_minPanicTime = 120;
-force stx_civilians_parkedCount = 5;
-force stx_civilians_parkedSpawnDelay = 0.8;
-force stx_civilians_parkedSpawnRadius = 500;
-force stx_civilians_pedestrianCount = 6;
-force stx_civilians_pedSpawnDelay = 0.5;
-force stx_civilians_pedSpawnRadius = 450;
-force stx_civilians_unitClassesStr = "[""C_Man_casual_2_F"",""C_Man_casual_3_F"",""C_man_w_worker_F"",""C_man_polo_2_F"",""C_Man_casual_1_F"",""C_man_polo_4_F""]";
-force stx_civilians_vehClassesStr = "[""C_Truck_02_fuel_F"",""C_Truck_02_box_F"",""C_Truck_02_covered_F"",""C_Offroad_01_repair_F"",""C_Van_01_box_F"",""C_Offroad_01_F"",""C_Offroad_01_covered_F"",""C_SUV_01_F""]";
-
-// STX Common
-force stx_common_applySubSkills = false;
-force stx_common_arsenalAnimEnabled = false;
-force stx_common_arsenalBlacklistStr = "";
-force stx_common_arsenalDummyEnabled = false;
-force stx_common_arsenalWhitelistStr = "";
-force stx_common_autoParachute = false;
-stx_common_hintType = 2;
-force stx_common_skillAimingAccuracy = 0.5;
-force stx_common_skillAimingShake = 0.5;
-force stx_common_skillAimingSpeed = 0.5;
-force stx_common_skillCommanding = 0.5;
-force stx_common_skillCourage = 0.5;
-force stx_common_skillGeneral = 0.5;
-force stx_common_skillReloadSpeed = 0.5;
-force stx_common_skillSpotDistance = 0.5;
-force stx_common_skillSpotTime = 0.5;
-force stx_common_slingloadMassOverride = true;
-
-// STX Extras
-force stx_extras_virtualDriverAllow = true;
-force stx_extras_virtualDriverClone = true;
-force stx_extras_virtualDriverRemoveOnExit = true;
-
-// STX Logistics
-force stx_logistics_canteenCapacity = 4;
-force stx_logistics_deployableResupplyCooldown = "0";
-force stx_logistics_deployableResupplyExpiration = "300";
-force stx_logistics_enableCanteen = false;
-force stx_logistics_enableFuelConsumption = false;
-stx_logistics_flashingFrequency = 0.4;
-force stx_logistics_maxFuelConsumption = 40;
-force stx_logistics_medicalClassesStr = "[""FirstAidKit"",""Medikit"",""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_tourniquet"",""ACE_splint"",""ACE_morphine"",""ACE_adenosine"",""ACE_epinephrine"",""ACE_plasmaIV"",""ACE_plasmaIV_500"",""ACE_plasmaIV_250"",""ACE_bloodIV"",""ACE_bloodIV_500"",""ACE_bloodIV_250"",""ACE_salineIV"",""ACE_salineIV_500"",""ACE_salineIV_250"",""ACE_quikclot"",""ACE_personalAidKit"",""ACE_surgicalKit"",""ACE_bodyBag""]";
-force stx_logistics_medicalDefaultsStr = "[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_tourniquet"",""ACE_splint"",""ACE_morphine"",""ACE_adenosine"",""ACE_epinephrine"",""ACE_bloodIV"",""ACE_bloodIV_500"",""ACE_bloodIV_250"",""ACE_surgicalKit"",""ACE_bodyBag""]";
-force stx_logistics_minFuelConsumption = 180;
-force stx_logistics_nudgeSizeCoef = 0.3;
-stx_logistics_visualAid = 3;
-
-// STX Main
-stx_main_debug = false;
-
-// STX Military
-force stx_military_AssistCoef = 1.3;
-force stx_military_cachingDefault = false;
-force stx_military_cachingDistance = 3500;
-force stx_military_cachingEnabled = false;
-stx_military_debug = false;
-force stx_military_flaresChance = 0.8;
-force stx_military_flaresEnabled = false;
-force stx_military_QRFRatio = 0.65;
-force stx_military_RatingCar = 3;
-force stx_military_RatingHelicopter = 7;
-force stx_military_RatingTank = 6;
-force stx_military_smokeChance = 0.5;
-force stx_military_smokeColorEAST = 0;
-force stx_military_smokeColorGUER = 0;
-force stx_military_smokeColorWEST = 0;
-force stx_military_smokeEnabled = false;
-
 
 // TFAR - Ð“Ð»Ð¾Ð±Ð°Ð»ÑŒÐ½Ñ‹Ðµ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸
 force TFAR_AICanHearPlayer = true;

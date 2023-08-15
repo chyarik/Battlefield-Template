@@ -210,17 +210,34 @@ while {true} do {
 		else{_ticketsW = _ticketsW - (powerE-powerW);};
 	};
 	
-	if(_ticketsE == 0)then
-	{VictoryW=true};
-	if(_ticketsW == 0)then
-	{VictoryE=true};
-
-	if ((CBA_missionTime >= 3000) and (_ticketsE>_ticketsW)) then {VictoryE=true};
-	if ((CBA_missionTime >= 3000) and (_ticketsW>_ticketsE)) then {VictoryW=true};
-	
 	ticketsGlobalE = _ticketsE; publicVariable "ticketsGlobalE";
 	ticketsGlobalW = _ticketsW; publicVariable "ticketsGlobalW";
 		{hintSilent parseText (format [localize "$STR_Other_Tickets", ticketsGlobalW, ticketsGlobalE])} remoteExec ["bis_fnc_call", 0, true];
+
+	if(_ticketsE == 0) exitWith
+	{_winner = West;
+	_msg = localize "STR_Other_VictoryBLUFOR";
+	[[[_winner, _msg], {_this call WMT_fnc_EndMission;}], "bis_fnc_spawn"] call bis_fnc_mp;};
+
+	if(_ticketsW == 0) exitWith
+	{_winner = East; 
+	_msg = localize "STR_Other_VictoryOPFORTime";
+	[[[_winner, _msg], {_this call WMT_fnc_EndMission;}], "bis_fnc_spawn"] call bis_fnc_mp;};
+
+	if ((CBA_missionTime >= 3000) and (_ticketsE>_ticketsW)) exitWith {
+		_winner = East; 
+		_msg = localize "STR_Other_VictoryOPFORTime";
+		[[[_winner, _msg], {_this call WMT_fnc_EndMission;}], "bis_fnc_spawn"] call bis_fnc_mp; };
+	if ((CBA_missionTime >= 3000) and (_ticketsW>_ticketsE)) exitWith {
+		_winner = West; 
+		_msg = localize "STR_Other_VictoryBLUFORTime";
+		[[[_winner, _msg], {_this call WMT_fnc_EndMission;}], "bis_fnc_spawn"] call bis_fnc_mp; };
+
+	if ((CBA_missionTime >= 3000) and (_ticketsW==_ticketsE)) exitWith {
+		_winner = Independent;
+		_msg = localize "STR_Other_Tie";
+		[[[_winner, _msg], {_this call WMT_fnc_EndMission;}], "bis_fnc_spawn"] call bis_fnc_mp; };
+
 	sleep 1;
 };
 
